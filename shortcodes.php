@@ -30,7 +30,7 @@ function auto_device_redirect_shortcode() {
     <?php
     return ob_get_clean();
 }
-add_shortcode('auto_device_redirect', 'device_redirect_shortcode');
+add_shortcode('auto_device_redirect', 'auto_device_redirect_shortcode');
 
 function app_store_badge_shortcode($atts) {
     $atts = shortcode_atts(array(
