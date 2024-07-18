@@ -1,0 +1,29 @@
+.app-store-badges {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.app-store-badges .google-play img,
+.app-store-badges .app-store img {
+  height: 40px;
+  width: auto;
+}
+
+.app-store-badges .google-play.sml img,
+.app-store-badges .app-store.sml img {
+  height: 40px;
+  width: auto;
+}
+
+.app-store-badges .google-play.med img,
+.app-store-badges .app-store.med img {
+  height: 60px;
+  width: auto;
+}
+
+.app-store-badges .google-play.lrg img,
+.app-store-badges .app-store.lrg img {
+  height: 80px;
+  width: auto;
+}
