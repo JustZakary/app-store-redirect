@@ -2,7 +2,7 @@
 /*
 Plugin Name: App Store Redirect
 Description: Adds shortcodes for auto-redirecting users to the appropriate app store based on their device. And display Apple App Store and Google Play Store badges.
-Version: 1.0
+Version: 1.1
 Author: Zakary Loney
 Plugin URI: https://github.com/JustZakary/app-store-redirect
 */
