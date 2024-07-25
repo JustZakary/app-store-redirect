@@ -4,10 +4,15 @@
   gap: 10px;
 }
 
+.app-store-badges.center {
+  justify-content: center;
+}
+
 .app-store-badges .google-play img,
 .app-store-badges .app-store img {
   height: 40px;
   width: auto;
+  object-fit: contain;
 }
 
 .app-store-badges .google-play.sml img,

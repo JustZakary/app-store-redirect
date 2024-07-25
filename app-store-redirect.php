@@ -42,7 +42,7 @@ function device_redirect_settings_page() {
         </form>
         <h2>Available Shortcodes</h2>
         <p>Google Play and App Store badges are setup to follow the <a href="https://developer.apple.com/app-store/marketing/guidelines/">Apple Identity Guidelines</a> and <a href="https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/badge-guidelines/">Google Play Brand Guidelines</a></p>
-        <table class="widefat fixed" cellspacing="0">
+<table class="widefat fixed" cellspacing="0">
   <thead>
     <tr>
       <th>Shortcode</th>
@@ -60,14 +60,16 @@ function device_redirect_settings_page() {
       <td><code>[app_store_badge]</code></td>
       <td>
         <strong>size</strong> (default: 'sml')<br>
-        <strong>apple_badge_color</strong> (default: 'black', options: 'black', 'white')
+        <strong>apple_badge_color</strong> (default: 'black', options: 'black', 'white')<br>
+        <strong>center</strong> (default: false)
       </td>
       <td>Displays the Apple App Store badge.</td>
     </tr>
     <tr>
       <td><code>[google_play_badge]</code></td>
       <td>
-        <strong>size</strong> (default: 'sml')
+        <strong>size</strong> (default: 'sml')<br>
+        <strong>center</strong> (default: false)
       </td>
       <td>Displays the Google Play Store badge.</td>
     </tr>
@@ -75,12 +77,14 @@ function device_redirect_settings_page() {
       <td><code>[both_badges]</code></td>
       <td>
         <strong>size</strong> (default: 'sml')<br>
-        <strong>apple_badge_color</strong> (default: 'black', options: 'black', 'white')
+        <strong>apple_badge_color</strong> (default: 'black', options: 'black', 'white')<br>
+        <strong>center</strong> (default: false)
       </td>
       <td>Displays both the Apple App Store and Google Play Store badges.</td>
     </tr>
   </tbody>
 </table>
+
 
     </div>
     <?php
